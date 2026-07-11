@@ -236,3 +236,94 @@ body{
 .card-pro button:hover{
 background: orange;
 }
+.hackathon{
+    background:black;
+    color:white;
+    padding:80px 8%;
+    text-align:center;
+}
+.section-title h2{
+    font-size:42px;
+    margin-bottom:15px;
+}
+.section-title p{
+    color:#ccc;
+    max-width:700px;
+    margin:0 auto 50px;
+    line-height:1.7;
+}
+.hackathon-cards{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    flex-wrap:wrap;
+}
+.hack-card{
+    width:320px;
+    background:black;
+    padding:35px 25px;
+    border-radius:12px;
+    transition:.3s;
+    border:1px solid transparent;
+}
+
+.hack-card:hover{
+    transform:translateY(-10px);
+    border-color:orange;
+}
+
+.hack-card h3{
+    font-size:25px;
+    margin-bottom:15px;
+    color:orange;
+}
+
+.hack-card p{
+    color:white;
+    line-height:1.7;
+}
+.hack-btn{
+    display:inline-block;
+    margin-top:50px;
+    background:orange;
+    color:white;
+    text-decoration:none;
+    padding:15px 35px;
+    border-radius:8px;
+    font-size:18px;
+}
+
+.hack-btn:hover{
+    background:orange;
+}
+.footer{
+    background:rgb(121, 117, 117);
+    color:white;
+    padding:40px 8%;
+}
+.footer-con{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:20px;
+}
+.footer-logo{
+    display:flex;
+    align-items:center;
+    gap:12px;
+}
+.footer-logo img{
+    width:45px;
+}
+.links{
+    display:flex;
+    gap:15px;
+}
+.links a{
+    text-decoration:none;
+    font-size:18px;
+    color:black;
+}
+.links a:hover{
+    background:orange;
+}
